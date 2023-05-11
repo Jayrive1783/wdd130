@@ -34,6 +34,7 @@ aside {
     padding: 1em;
     background-color: #eee;
     color: #333;
+    width: 20em;
     text-align: center;
 }
 aside img {
@@ -43,7 +44,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    
+    float: right;
 }
 p { padding: 0;}
 footer {
@@ -59,4 +60,12 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+main img {
+    float: right;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
